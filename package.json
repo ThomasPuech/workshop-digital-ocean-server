@@ -1,0 +1,23 @@
+{
+  "name": "workshop-digital-ocean-server",
+  "version": "1.0.0",
+  "description": "workshop demo with nick and doug",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasPuech/workshop-digital-ocean-server.git"
+  },
+  "author": "Thomas Puech <thomaspuechdesign@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ThomasPuech/workshop-digital-ocean-server/issues"
+  },
+  "homepage": "https://github.com/ThomasPuech/workshop-digital-ocean-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
