@@ -6,6 +6,10 @@ const port = process.argv[2] || 80; // NOTE argv is an array of all the things I
 const www = express.static(`${__dirname}/www`); // __dirname refers to the root folder
 app.use(www);
 
+app.get("/", (req, res) => {
+  res.send("ok");
+});
+
 //NOTE By default while accessing any server, it will request the port 80
 app.listen(port, () => {
   console.log(
